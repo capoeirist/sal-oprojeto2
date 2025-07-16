@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Contato - Barbearia</title>
+  <!-- Incluindo Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+  <!-- Seu CSS personalizado -->
+  <link rel="stylesheet" href="css/gabriel.css">
+</head>
+<body>
+  <!-- Cabeçalho com logo e botão de voltar -->
+  <header>
+      <nav
+        class="navbar navbar-expand-lg bg-black border border-white"
+        data-bs-theme="dark"
+      >
+        <div class="container-fluid">
+          <!-- Logo -->
+          <a class="navbar-brand" href="index.html"
+            ><img
+              src="img/ChatGPT Image Jul 11, 2025, 02_59_18 PM.png"
+              alt="Logo"
+          /></a>
+            <button type="button" class="btn btn-danger" onclick="window.location.href='index.html'">
+              Voltar ao inicio
+            </button>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+  <!-- Conteúdo principal da página -->
+  <main>
+    <section class="contatomain"><!-- Usando grid do Bootstrap para responsividade -->
+    <div class="container">
+      <div class="row align-items-center justify-content-center">
+        <!-- Lado esquerdo: QR Code e telefone -->
+        <div class="col-md-5 text-center mb-4 mb-md-0">
+          <h1 class="texto mb-4">Agende seu horário</h1>
+          <img src="img/foto code.png" alt="qrcode" class="img-fluid rounded mb-3" style="max-width: 300px;">
+          <p class="telefone fs-4">(43) 99643-1573</p>
+        </div>
+        <!-- Lado direito: Mapa e endereço -->
+        <div class="col-md-5 text-center">
+          <h3>Nos visite</h3>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3679.4589997573053!2d-51.381945400000006!3d-22.7483412!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9493619b09c97c29%3A0xddc723f27b3c71f2!2sRua%20Igua%C3%A7u%2C%201606%2C%20Porecatu%20-%20PR%2C%2086160-000!5e0!3m2!1spt-BR!2sbr!4v1752257204674!5m2!1spt-BR!2sbr" width="400px" height="239px" style="border:0; border-radius: 20px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <p class="endereco mt-3">
+            Rua Iguaçu: 1606<br>
+            Centro<br>
+            Porecatu - PR
+          </p>
+        </div>
+      </div>
+    </div>
+    <button type="button" class="btn btn-danger" onclick="window.location.href='portfolio.html'">
+              conheça meu trabalho
+            </button>
+            </section>
+    <!-- Dica: use as classes do Bootstrap para alinhar, espaçar e tornar responsivo -->
+  </main>
+
+  <!-- Rodapé -->
+  <footer class="bg-black text-white text-center py-3">
+  &copy;copyright diego & gabriel 2025
+</footer>
+  <!-- Dica: bg-dark e text-white deixam o rodapé escuro e texto branco -->
+  <!-- Incluindo Bootstrap JS para componentes funcionarem -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+</body>
+</html>

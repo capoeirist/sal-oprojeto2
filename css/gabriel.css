@@ -1,0 +1,124 @@
+/* estilo.css */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Definindo estilos gerais */
+body {
+  background-color: #000; /* Fundo preto */
+  color: white; /* Letras brancas */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+header {
+  position: static;
+}
+@media (min-width: 768px) {
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+  }
+}
+
+
+header .navbar-brand img {
+  max-width: 80px;
+  max-height: 80px;
+  border-radius: 50px;
+}
+
+.fuckyougabriel {
+  min-height: 75vh;
+  flex: 1; /* ocupa todo o espaço disponível entre header e footer */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* centraliza verticalmente */
+  align-items: center;     /* centraliza horizontalmente */
+}
+
+.servicos {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap; /* para adaptar em telas menores */
+}
+#card {
+  background-color: #000;
+  color: white;
+}
+
+/* Garante que a área principal ocupe toda a altura */
+.contatomain {
+  flex: 1; /* Faz o conteúdo crescer para preencher o espaço */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centraliza verticalmente se precisar */
+  align-items: center;
+  height: 75vh;
+}
+
+
+
+/* Botão de agendar */
+
+button:hover {
+  background-color: #b53d3c;
+}
+
+
+
+
+/* Conteúdo central com duas colunas */
+.contato {
+  width: 100%;
+  min-height: 74vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap; /* Para adaptar em telas menores */
+}
+
+/* Coluna esquerda */
+.esquerda {
+  width: 400px;
+  margin: 20px 0;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.esquerda img {
+  width: 332px;
+  height: 333px;
+}
+.telefone {
+  margin-top: 10px;
+}
+
+/* Coluna direita */
+.direita iframe {
+  border-radius: 40px;
+}
+
+/* Botão central inferior */
+.botao-centro {
+  margin: 20px 0;
+}
+
+
+
+/* Rodapé sempre no fim */
+footer {
+  padding: 20px 0;
+  font-size: 14px;
+  margin-top: auto;
+}
+
