@@ -34,7 +34,7 @@ header .navbar-brand img {
 }
 
 .fuckyougabriel {
-  min-height: 75vh;
+  min-height: 95vh;
   flex: 1; /* ocupa todo o espaço disponível entre header e footer */
   display: flex;
   flex-direction: column;
@@ -62,7 +62,8 @@ header .navbar-brand img {
   flex-direction: column;
   justify-content: center; /* Centraliza verticalmente se precisar */
   align-items: center;
-  height: 75vh;
+  height: 95vh;
+  gap :10px;
 }
 
 
@@ -78,22 +79,21 @@ button:hover {
 
 /* Conteúdo central com duas colunas */
 .contato {
-  width: 100%;
-  min-height: 74vh;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  flex-wrap: wrap; /* Para adaptar em telas menores */
+  flex-wrap: wrap;
+   /* Para adaptar em telas menores */
 }
 
 /* Coluna esquerda */
 .esquerda {
   width: 400px;
-  margin: 20px 0;
   text-align: center;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin: 0 10px;
 }
 .esquerda img {
   width: 332px;
